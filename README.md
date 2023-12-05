@@ -49,5 +49,9 @@ I have learned and used information from many other webs and blogs about my topi
 
 ---
 
+## Conclusions
+
+To conclude I have been satisfied with the web and software development project I have done. I would like to continue learning about it and learn to program in HTML language and to create many more types of styles. But for the moment it seems to me enough with what I have learned since I consider that from this moment I could make a simple but complete and aesthetic page at the same time. 
+
 Enjoy exploring my website! If you have any questions or comments, feel free to contact me.
 
