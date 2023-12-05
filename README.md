@@ -31,10 +31,10 @@ The website contains a principal index page with several linked pages that can b
 For the customization of the web pages or the web app we used a css file. There we can have all the styles we need to create a estetic web wit consistency in their colours and fonts. I used a template for it and modified for making it a bit personal. With a combination of Yellow, Grey, Black and White colours. I also introduced a lot of images and icons to make it more visual, simple and clear for the user. We used big coloured titles and texts to make it easier for the reader to understand and follow the information with no dificulty.
 
 ### Problems
-1. **Issue 1**: Defining a unique css document for every style for the web.
+**Issue 1**: Defining a unique css document for every style for the web.
    - **Solution**: I unified every style from all files to the same one, and make it easier to me to link the css to every page.
 
-2. **Issue 2**: I neede to structure well all pages and link them because it did not worked.
+**Issue 2**: I neede to structure well all pages and link them because it did not worked.
    - **Solution**: I made a good structure inside the docs folder and then into the code I linked by their paths to make ir work.
 
 
