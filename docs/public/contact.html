@@ -9,7 +9,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <!-- site metas -->
-   <title>Gonzalo Pintor | Entrepreneur Mindset</title>
+   <title>Gonzalo Pintor | Contact me</title>
    <meta name="keywords" content="">
    <meta name="description" content="">
    <meta name="author" content="">
@@ -17,24 +17,21 @@
    <!-- style css -->
    <link rel="stylesheet" href="./css/style.css">
 
-   <!-- fevicon -->
-   <link rel="icon" href="./images/fevicon.png" type="image/gif" />
-
    <!-- Tweaks for older IEs-->
    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
       media="screen">
-
 </head>
 
 <!-- body -->
 
-<body class="main-layout">
+<body class="main-layout in_page">
    <!-- loader  -->
    <div class="loader_bg">
       <div class="loader"><img src="./images/loading.gif" alt="#" /></div>
    </div>
-
+   <!-- end loader -->
+   <!-- header -->
    <header>
       <!-- header inner -->
       <div class="header">
@@ -44,7 +41,7 @@
                   <div class="full">
                      <div class="center-desk">
                         <div class="logo">
-                           <a href="index.html"><img src="./images/logogpem.png" alt="#" /></a>
+                           <a href="./index.html"><img src="./images/logogpem.png" alt="#" /></a>
                         </div>
                      </div>
                   </div>
@@ -58,22 +55,22 @@
                      <div class="collapse navbar-collapse" id="navbarsExample04">
                         <ul class="navbar-nav mr-auto">
                            <li class="nav-item active">
-                              <a class="nav-link" href="index.html">Home</a>
+                              <a class="nav-link" href="/docs/index.html">Home</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="/docs/public/about.html">About me</a>
+                              <a class="nav-link" href="about.html">About me</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="/docs/public/topic.html">Topic</a>
+                              <a class="nav-link" href="topic.html">Topic</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="/docs/public/net.html">Net</a>
+                              <a class="nav-link" href="net.html">Net</a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="/docs/public/degree.html"> Degree </a>
+                              <a class="nav-link" href="degree.html"> Degree </a>
                            </li>
                            <li class="nav-item">
-                              <a class="nav-link" href="/docs/public/contact.html">Contact Me</a>
+                              <a class="nav-link" href="contact.html">Contact Me</a>
                            </li>
                         </ul>
                      </div>
@@ -85,124 +82,53 @@
    </header>
    <!-- end header inner -->
    <!-- end header -->
-   <!-- banner -->
-   <section class="banner_main">
-      <div id="myCarousel" class="carousel slide banner" data-ride="carousel">
-         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-         </ol>
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <div class="row">
-                        <div class="col-md-7 offset-md-5">
-                           <div class="text-bg">
-
-
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="carousel-item">
-               <div class="container">
-                  <div class="carousel-caption relative">
-                     <div class="row">
-                        <div class="col-md-7 offset-md-5">
-                           <div class="text-bg">
-
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- end banner -->
-   <!-- about -->
-   <div id="about" class="about">
-      <div class="container">
-         <div class="row">
-            <div class="col-md-5">
-               <div class="titlepage">
-                  <h2>About <span class="green">My Page</span></h2>
-                  <p>My name is Gonzalo Pintor Novo. I'm currently in my first year
-                     of my career and I'm developping this project for the Fundamentals subject. I have started a double
-                     degree in computer
-                     engineering and business analytics. During all my life I have always liked computer science and I
-                     wanted to become a professional in it. Something that I am also passionate about and why I chose my
-                     double degree is
-                     entrepreneurship. I would like one day to be able to create my own company and climb to the top.
-                     That's why I'm going to talk about the entrepreneurial mindset in people, and how to exercise it.
-                     And how to carry it out when you already have it and you can't wait to get started.
-                  </p>
-               </div>
-            </div>
-            <div class="col-md-7">
-               <div class="about_img">
-                  <figure><img src="images/investing3.png" width: 200px; height: 400px; alt="#" /></figure>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- end about -->
-
-   <!-- gallery -->
-   <div id="gallery" class="gallery">
+   <!--  contact -->
+   <div id="contact" class="contact">
       <div class="container">
          <div class="row">
             <div class="col-md-12">
                <div class="titlepage">
-                  <h2><span class="green"></span></h2>
-                  <h2></h2>
+                  <h2>Contact Me</h2>
                </div>
             </div>
          </div>
          <div class="row">
-            <div class="col-md-4 col-sm-6">
-               <div class="gallery_text">
-                  <div class="galleryh3">
-                     <h3>Computer Engineering</h3>
+            <div class="col-md-6">
+               <form id="request" class="main_form">
+                  <div class="row">
+                     <div class="col-md-12 ">
+                        <input class="contactus" placeholder="Name" type="type" name="Name">
+                     </div>
+                     <div class="col-md-12">
+                        <input class="contactus" placeholder="Email" type="type" name="Email">
+                     </div>
+                     <div class="col-md-12">
+                        <input class="contactus" placeholder="Phone Number" type="type" name="Phone Number">
+                     </div>
+                     <div class="col-md-12">
+                        <input class="contactus" placeholder="location" type="type" name="Location">
+                     </div>
+                     <div class="col-md-12">
+                        <textarea class="textarea" placeholder="Message" type="type"
+                           Message="Name">Message / Reason</textarea>
+                     </div>
+                     <div class="col-md-12">
+                        <button class="send_btn">Send</button>
+                     </div>
                   </div>
-               </div>
+               </form>
             </div>
-            <div class="col-md-4 col-sm-6">
-               <div class="gallery_img">
-                  <figure><img src="images/cengineering1.png" alt="#" /></figure>
-               </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-               <div class="gallery_img">
-                  <figure><img src="images/cengineering2.png" alt="#" /></figure>
-               </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-               <div class="gallery_img">
-                  <figure><img src="images/investing1.png" alt="#" /></figure>
-               </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-               <div class="gallery_img">
-                  <figure><img src="images/investing2.png" alt="#" /></figure>
-               </div>
-            </div>
-            <div class="col-md-4 col-sm-6">
-               <div class="gallery_text">
-                  <div class="galleryh3">
-                     <h3>Entrepreneur Mindset</h3>
+            <div class="col-md-6">
+               <div class="map_main">
+                  <div class="map-responsive">
+                     <img src="./images/googlemaps.png" width="800" height="500" frameborder="10"
+                        style="border:20px ; width: 100%;" allowfullscreen=""></img>
                   </div>
                </div>
             </div>
          </div>
       </div>
    </div>
-   <!-- end gallery -->
 
    <!--  footer -->
    <footer>
@@ -229,7 +155,7 @@
                <div class="col-md-3 col-sm-6">
                   <h3>Pages menu</h3>
                   <ul class="link_menu">
-                     <li><a href="index.html">Home</a></li>
+                     <li><a href="/docs/index.html">Home</a></li>
                      <li><a href="about.html"> About me</a></li>
                      <li><a href="topic.html">Topic</a></li>
                      <li><a href="net.html">Net</a></li>
@@ -265,12 +191,12 @@
    </footer>
    <!-- end footer -->
    <!-- Javascript files-->
-   <script src="./js/jquery.min.js"></script>
-   <script src="./js/bootstrap.bundle.min.js"></script>
-   <script src="./js/jquery-3.0.0.min.js"></script>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.0.0.min.js"></script>
    <!-- sidebar -->
-   <script src="./js/jquery.mCustomScrollbar.concat.min.js"></script>
-   <script src="./js/custom.js"></script>
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
 </body>
 
 </html>
